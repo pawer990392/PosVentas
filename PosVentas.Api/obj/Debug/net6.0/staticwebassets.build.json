@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "LszqK+GDIe/WCez8OKSIym9mQLjssGnGpW5mHjZrwh0=",
+  "Source": "PosVentas.Api",
+  "BasePath": "_content/PosVentas.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

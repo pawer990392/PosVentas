@@ -1,0 +1,17 @@
+C:\repos\POSVentas\PosVentas.Infrastructure\bin\Debug\net6.0\PosVentas.Infrastructure.deps.json
+C:\repos\POSVentas\PosVentas.Infrastructure\bin\Debug\net6.0\PosVentas.Infrastructure.dll
+C:\repos\POSVentas\PosVentas.Infrastructure\bin\Debug\net6.0\PosVentas.Infrastructure.pdb
+C:\repos\POSVentas\PosVentas.Infrastructure\bin\Debug\net6.0\PosVentas.Domain.dll
+C:\repos\POSVentas\PosVentas.Infrastructure\bin\Debug\net6.0\PosVentas.Utilities.dll
+C:\repos\POSVentas\PosVentas.Infrastructure\bin\Debug\net6.0\PosVentas.Domain.pdb
+C:\repos\POSVentas\PosVentas.Infrastructure\bin\Debug\net6.0\PosVentas.Utilities.pdb
+C:\repos\POSVentas\PosVentas.Infrastructure\obj\Debug\net6.0\PosVentas.Infrastructure.csproj.AssemblyReference.cache
+C:\repos\POSVentas\PosVentas.Infrastructure\obj\Debug\net6.0\PosVentas.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\repos\POSVentas\PosVentas.Infrastructure\obj\Debug\net6.0\PosVentas.Infrastructure.AssemblyInfoInputs.cache
+C:\repos\POSVentas\PosVentas.Infrastructure\obj\Debug\net6.0\PosVentas.Infrastructure.AssemblyInfo.cs
+C:\repos\POSVentas\PosVentas.Infrastructure\obj\Debug\net6.0\PosVentas.Infrastructure.csproj.CoreCompileInputs.cache
+C:\repos\POSVentas\PosVentas.Infrastructure\obj\Debug\net6.0\PosVentas.Infrastructure.csproj.CopyComplete
+C:\repos\POSVentas\PosVentas.Infrastructure\obj\Debug\net6.0\PosVentas.Infrastructure.dll
+C:\repos\POSVentas\PosVentas.Infrastructure\obj\Debug\net6.0\refint\PosVentas.Infrastructure.dll
+C:\repos\POSVentas\PosVentas.Infrastructure\obj\Debug\net6.0\PosVentas.Infrastructure.pdb
+C:\repos\POSVentas\PosVentas.Infrastructure\obj\Debug\net6.0\ref\PosVentas.Infrastructure.dll

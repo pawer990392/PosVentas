@@ -1,0 +1,14 @@
+C:\repos\POSVentas\PosVentas.Domain\bin\Debug\net6.0\PosVentas.Domain.deps.json
+C:\repos\POSVentas\PosVentas.Domain\bin\Debug\net6.0\PosVentas.Domain.runtimeconfig.json
+C:\repos\POSVentas\PosVentas.Domain\bin\Debug\net6.0\PosVentas.Domain.dll
+C:\repos\POSVentas\PosVentas.Domain\bin\Debug\net6.0\PosVentas.Domain.pdb
+C:\repos\POSVentas\PosVentas.Domain\obj\Debug\net6.0\PosVentas.Domain.csproj.AssemblyReference.cache
+C:\repos\POSVentas\PosVentas.Domain\obj\Debug\net6.0\PosVentas.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\repos\POSVentas\PosVentas.Domain\obj\Debug\net6.0\PosVentas.Domain.AssemblyInfoInputs.cache
+C:\repos\POSVentas\PosVentas.Domain\obj\Debug\net6.0\PosVentas.Domain.AssemblyInfo.cs
+C:\repos\POSVentas\PosVentas.Domain\obj\Debug\net6.0\PosVentas.Domain.csproj.CoreCompileInputs.cache
+C:\repos\POSVentas\PosVentas.Domain\obj\Debug\net6.0\PosVentas.Domain.dll
+C:\repos\POSVentas\PosVentas.Domain\obj\Debug\net6.0\refint\PosVentas.Domain.dll
+C:\repos\POSVentas\PosVentas.Domain\obj\Debug\net6.0\PosVentas.Domain.pdb
+C:\repos\POSVentas\PosVentas.Domain\obj\Debug\net6.0\PosVentas.Domain.genruntimeconfig.cache
+C:\repos\POSVentas\PosVentas.Domain\obj\Debug\net6.0\ref\PosVentas.Domain.dll
