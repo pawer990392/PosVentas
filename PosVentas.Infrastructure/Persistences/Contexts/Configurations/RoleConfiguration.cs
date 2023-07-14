@@ -9,14 +9,14 @@ using System.Threading.Tasks;
 
 namespace PosVentas.Infrastructure.Persistences.Contexts.Configurations
 {
-    public class DepartmentConfiguration : IEntityTypeConfiguration<Department>
+    public class RoleConfiguration : IEntityTypeConfiguration<Role>
     {
-        public void Configure(EntityTypeBuilder<Department> builder)
+        public void Configure(EntityTypeBuilder<Role> builder)
         {
-            builder.HasKey(e => e.DepartmentId).HasName("PK__Departme__B2079BED6F0EED9A");
+            builder.HasKey(e => e.RoleId).HasName("PK__Roles__8AFACE1A5A02F28F");
 
-            builder.Property(e => e.Name)
-                .HasMaxLength(100)
+            builder.Property(e => e.Description)
+                .HasMaxLength(50)
                 .IsUnicode(false);
         }
     }

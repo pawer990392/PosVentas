@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace PosVentas.Infrastructure.Persistences.Contexts.Configurations
 {
-    internal class ClientConfiguration : IEntityTypeConfiguration<Client>
+    public class ClientConfiguration : IEntityTypeConfiguration<Client>
     {
         public void Configure(EntityTypeBuilder<Client> builder)
         {

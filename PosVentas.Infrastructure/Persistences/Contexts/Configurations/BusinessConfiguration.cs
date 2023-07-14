@@ -1,15 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using PosVentas.Domain.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace PosVentas.Infrastructure.Persistences.Contexts.Configurations
 {
-    internal class BusinessConfiguration : IEntityTypeConfiguration<Business>
+    public class BusinessConfiguration : IEntityTypeConfiguration<Business>
     {
         public void Configure(EntityTypeBuilder<Business> builder)
         {

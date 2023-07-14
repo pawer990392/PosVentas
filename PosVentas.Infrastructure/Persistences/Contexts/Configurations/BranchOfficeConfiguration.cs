@@ -37,6 +37,7 @@ namespace PosVentas.Infrastructure.Persistences.Contexts.Configurations
                 .HasForeignKey(d => d.DistrictId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK__BranchOff__Distr__5CD6CB2B");
+
         }
     }
 }

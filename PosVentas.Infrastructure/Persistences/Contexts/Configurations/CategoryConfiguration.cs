@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace PosVentas.Infrastructure.Persistences.Contexts.Configurations
 {
-    internal class CategoryConfiguration : IEntityTypeConfiguration<Category>
+    public class CategoryConfiguration : IEntityTypeConfiguration<Category>
     {
         public void Configure(EntityTypeBuilder<Category> builder)
         {
