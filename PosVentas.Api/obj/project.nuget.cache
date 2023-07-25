@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "WTkLDprM1u8RjVMv055FCS3MNlMgL8D399SjCRnOLK3v7/aGfHpg+6c1ygn69vckFFyGkD0oV8o6o5UOCeFEXg==",
+  "dgSpecHash": "9Z3rR67GMwf+WyuZlV2XTf703gJ3HxA48jItzJ2ZEUopsXaEU4xtEAh+XovlgjO7gT5tPLUFaDAkKVGSJ7x0eQ==",
   "success": true,
   "projectFilePath": "C:\\repos\\POSVentas\\PosVentas.Api\\PosVentas.Api.csproj",
   "expectedPackageFiles": [

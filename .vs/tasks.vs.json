@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "tarea-Interfaces",
+      "appliesTo": "PosVentas.Infrastructure/Persistences/Interfaces/",
+      "type": "launch"
+    }
+  ]
+}

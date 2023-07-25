@@ -1,9 +1,12 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using PosVentas.Domain.Entities;
 using System.Reflection;
 
-namespace PosVentas.Domain.Entities;
 
-public partial class PosContext : DbContext
+
+namespace PosVentas.Infrastructure.Persistences.Contexts
+
+    public partial class PosContext : DbContext
 {
     public PosContext()
     {
@@ -13,8 +16,8 @@ public partial class PosContext : DbContext
         : base(options)
     {
     }
-
-    public virtual DbSet<BranchOffice> BranchOffices { get; set; }
+    //BranchOffice
+    public virtual DbSet<BranchOffice> BranchOffice { get; set; }
 
     public virtual DbSet<Business> Businesses { get; set; }
 
@@ -54,10 +57,11 @@ public partial class PosContext : DbContext
 
     public virtual DbSet<UsersBranchOffice> UsersBranchOffices { get; set; }
 
-//    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-//#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-//        => optionsBuilder.UseSqlServer("Server=MSI;Database=POS;Trusted_Connection=True;Encrypt=False;");
-//temas como injeccion de depedencias
+    //    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    //#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
+    //        => optionsBuilder.UseSqlServer("Server=MSI\SQLEXPRESS;Database=POS;Trusted_Connection=True;Encrypt=False;");
+    //temas como injeccion de depedencias
+
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.HasAnnotation("Relacional:Collation", "Modern_Spanish_CI_AS");
