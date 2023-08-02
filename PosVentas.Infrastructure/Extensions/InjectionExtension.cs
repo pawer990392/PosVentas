@@ -3,6 +3,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 //lalamaos al context
 using PosVentas.Infrastructure.Persistences.Contexts;
+using PosVentas.Infrastructure.Persistences.Interfaces;
+using PosVentas.Infrastructure.Persistences.Repositories;
 
 namespace PosVentas.Infrastructure.Extensions
 {
@@ -16,6 +18,10 @@ namespace PosVentas.Infrastructure.Extensions
                 options => options.UseSqlServer(
                     configuration.GetConnectionString("POSConnection"), b => b.MigrationsAssembly(assembly)), ServiceLifetime.Transient
                     );
+
+            services.AddTransient<IUnitOfWork, UnitOfWork>();
+
+
             return services;
 
         }

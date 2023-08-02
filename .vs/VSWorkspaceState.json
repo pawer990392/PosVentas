@@ -1,14 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\PosVentas.Infrastructure",
-    "\\PosVentas.Infrastructure\\bin",
-    "\\PosVentas.Infrastructure\\Commons\\Bases",
-    "\\PosVentas.Infrastructure\\Helpers",
-    "\\PosVentas.Infrastructure\\Persistences",
-    "\\PosVentas.Infrastructure\\Persistences\\Interfaces",
-    "\\PosVentas.Infrastructure\\Persistences\\Repositories"
+    ""
   ],
-  "SelectedNode": "\\PosVentas.Infrastructure\\Helpers\\QueryableHelper.cs",
+  "SelectedNode": "\\POSVentas.sln",
   "PreviewInSolutionExplorer": false
 }

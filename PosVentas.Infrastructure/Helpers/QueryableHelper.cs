@@ -1,4 +1,4 @@
-﻿using PosVentas.Infrastructure.Commons.Bases;
+﻿using PosVentas.Infrastructure.Commons.Bases.Request;
 
 namespace PosVentas.Infrastructure.Helpers
 {
