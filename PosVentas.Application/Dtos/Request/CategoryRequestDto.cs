@@ -2,7 +2,7 @@
 {
     public class CategoryRequestDto
     {
-        //delcarar lps atributos que se necesita enviar o cliente enviar para que ecista una categoria
+        //delcarar lps atributos que se necesitan enviar del fronk al bank
         public string? Name { get; set; }
         public string? Description { get; set; }
         public int State { get; set; }

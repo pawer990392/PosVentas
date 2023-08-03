@@ -15,10 +15,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\PosVentas.Application\PosVentas.Application.csproj" />
     <ProjectReference Include="..\PosVentas.Infrastructure\PosVentas.Infrastructure.csproj" />
     <ProjectReference Include="..\PosVentas.Utilities\PosVentas.Utilities.csproj" />

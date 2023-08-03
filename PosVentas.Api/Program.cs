@@ -1,3 +1,4 @@
+using PosVentas.Application.Extensions;
 using PosVentas.Infrastructure.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -5,6 +6,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 var Configuration = builder.Configuration;
 builder.Services.AddInjectionInfractructure(Configuration);
+
+builder.Services.AddInjeccionApplication(Configuration);
 
 // Add services to the container.
 
